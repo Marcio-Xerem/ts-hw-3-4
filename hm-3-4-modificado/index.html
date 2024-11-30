@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparação de Datas e Voo</title>
+</head>
+
+<body>
+  <h1>Inserção das datas</h1>
+  <h2>Testes das Datas:</h2>
+  <label for="data1">Data 1:</label>
+  <input type="text" id="data1" placeholder="dd/mm/aaaa">
+  <button id="testarData1">Testar Data 1</button><br>
+  <label for="data2">Data 2:</label>
+  <input type="text" id="data2" placeholder="dd/mm/aaaa">
+  <button id="testarData2">Testar Data 2</button>
+
+  <h2>Resultado dos testes:</h2>
+  <p id="resultadoData1"></p>
+  <p id="resultadoData2"></p>
+  <hr>
+
+  <button id="comparar">Comparar Datas</button>
+
+  <h2>Resultado da Comparação:</h2>
+  <p id="resultadoComparacao"></p>
+  <hr>
+
+  <h1>Número do Voo</h1>
+  <label for="numeroVoo">Número do Voo:</label>
+  <input type="text" id="numeroVoo" placeholder="XXX"><br>
+  <button id="informarVoo">Informar Voo</button>
+
+  <h2>Informações do Voo:</h2>
+  <p id="informacoesVoo"></p>
+  <hr>
+
+  <h1>Manipulação de Cadeiras</h1>
+  <label for="assento">Número da Cadeira:</label>
+  <input type="number" id="assento" min="1" max="100" placeholder="1-100"><br>
+  <button id="ocuparCadeira">Ocupar Cadeira</button>
+  <button id="verificarCadeira">Verificar Cadeira</button><br>
+  
+  <button id="proximaLivre">Próxima Cadeira Livre</button>
+  <button id="quantidadeVagas">Quantidade de Cadeiras Vagas</button>
+  
+  <h2>Resultado da Manipulação de Cadeiras:</h2>
+  <p id="resultadoCadeira"></p>
+  <p id="resultadoProximaLivre"></p>
+  <p id="resultadoQuantidadeVagas"></p>
+  
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
